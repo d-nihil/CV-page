@@ -1,0 +1,140 @@
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	font-family: Arial;
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(62,65,111,1) 44%, rgba(65,35,77,1) 100%);
+	display: flex;
+	color: #ffffff;
+	flex-direction: column;
+	align-items: center;
+}
+
+.navbar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  backdrop-filter: blur(8px) brightness(1.2);
+  font-size: 16px;
+  z-index: 999999;
+}
+
+.navbar_link{
+	color: inherit;
+	text-decoration: none;
+  	&:hover,
+  	&:focus {
+    	text-decoration: underline;
+    	color: #f0f7cb;
+ 	}
+}
+
+a{
+	color: yellow;
+	text-decoration: none;
+  	&:hover,
+  	&:focus {
+    	text-decoration: underline;
+    	color: #f0f7cb;
+ 	}
+}
+
+.list{
+  list-style-type: none;
+  display: flex;
+  li {
+    margin-left: 20px;
+  }
+}
+
+.section_container{
+	width: 60%;
+	margin-top: 60px;
+	background-color: rgba(255, 255, 255, .05);
+	box-shadow: 3px 5px 10px rgba(0, 0, 0, .7);
+	scroll-margin-top: 60px;
+}
+
+.avatar_container{
+	text-align: center;
+	font-size: 20px;
+	margin-left: .7%;
+	padding: 20px;
+}
+
+.avatar{
+	width: 250px;
+	transition: transform .3s;
+	&:hover,
+	&:focus{
+		transform: scale(1.1);
+	}
+}
+
+.avatar_caption{
+	text-align: center;
+	padding-top: 15px;
+}
+
+.text_container{
+	text-align: left;
+	font-size: 20px;
+	padding: 20px;
+}
+
+.auto_type{
+	color: yellow;
+}
+
+.card_container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+
+.card{
+	padding: 5px;
+	margin: 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: white;
+	box-shadow: 3px 5px 10px rgba(0, 0, 0, .7);
+	border-radius: 15px;
+	width: 21%;
+	height: 130px;
+	img{
+		width: 80px;
+		height: 80px;
+	}
+	p{
+		color: black;
+		font-size: 20px;
+	}
+}
+
+.contact_card{
+	padding: 5px;
+	margin: 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 21%;
+	height: 130px;
+	img{
+		width: 50px;
+		height: 50px;
+	}
+	a{
+		color: white;
+		font-size: 20px;
+		margin-top: 15px;
+	}
+}
