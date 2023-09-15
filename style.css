@@ -49,7 +49,7 @@ a{
   display: flex;
 }
 
-.list > li{
+.list li{
 	margin-left: 20px;
 }
 
@@ -113,14 +113,14 @@ a{
 	height: 130px;
 }
 
-.card > img{
+.card img{
 	width: 80px;
 		height: 80px;
 }
 
-.card > p{
+.card p{
 	color: black;
-		font-size: 20px;
+	font-size: 20px;
 }
 
 .contact_card{
@@ -133,13 +133,13 @@ a{
 	height: 130px;
 }
 
-.contact_card > img{
-	width: 50px;
+.contact_card img{
+		width: 50px;
 		height: 50px;
 }
 
-.contact_card > a{
-	color: white;
+.contact_card a{
+		color: white;
 		font-size: 20px;
 		margin-top: 15px;
 }
