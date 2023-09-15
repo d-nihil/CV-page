@@ -47,9 +47,10 @@ a{
 .list{
   list-style-type: none;
   display: flex;
-  li {
-    margin-left: 20px;
-  }
+}
+
+.list > li{
+	margin-left: 20px;
 }
 
 .section_container{
@@ -110,14 +111,16 @@ a{
 	border-radius: 15px;
 	width: 21%;
 	height: 130px;
-	img{
-		width: 80px;
+}
+
+.card > img{
+	width: 80px;
 		height: 80px;
-	}
-	p{
-		color: black;
+}
+
+.card > p{
+	color: black;
 		font-size: 20px;
-	}
 }
 
 .contact_card{
@@ -128,13 +131,15 @@ a{
 	align-items: center;
 	width: 21%;
 	height: 130px;
-	img{
-		width: 50px;
+}
+
+.contact_card > img{
+	width: 50px;
 		height: 50px;
-	}
-	a{
-		color: white;
+}
+
+.contact_card > a{
+	color: white;
 		font-size: 20px;
 		margin-top: 15px;
-	}
 }
